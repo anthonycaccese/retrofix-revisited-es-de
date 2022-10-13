@@ -1,0 +1,13 @@
+<theme>
+   <include>./../theme.xml</include>
+   <view name="system">
+      <image name="system-marker">
+         <color>1F00CC</color>
+      </image> 
+   </view>
+   <view name="gamelist">
+      <textlist name="gamelist">
+         <selectorColor>1F00CC</selectorColor>
+      </textlist>
+   </view>
+</theme>

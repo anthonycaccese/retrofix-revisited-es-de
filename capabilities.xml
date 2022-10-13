@@ -1,0 +1,15 @@
+<themeCapabilities>
+
+   <aspectRatio>16:10</aspectRatio>
+
+   <variant name="gamelist-default">
+      <label>Default</label>
+      <selectable>true</selectable>
+   </variant>
+
+   <variant name="gamelist-immersive">
+      <label>Immersive</label>
+      <selectable>true</selectable>
+   </variant>
+
+</themeCapabilities>
