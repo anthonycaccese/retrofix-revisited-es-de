@@ -23,15 +23,13 @@
       <image name="logo">
          <path>./${system.theme}/logo.svg</path>
       </image>
-      <!--<text name="logoText">
-         <fontSize>0.0225</fontSize>
-         <lineSpacing>1.2</lineSpacing>
-      </text>-->
       <carousel name="systemcarousel">
          <pos>0.028645833333333 0</pos><!-- 55 0 -->
          <size>0.171875 1</size><!-- 330 1200 -->
          <itemScale>1.5</itemScale>
          <itemSize>0.1 0.1</itemSize><!-- 192 120 -->
+         <fontSize>0.0225</fontSize><!-- 27 -->
+         <lineSpacing>1.2</lineSpacing>
          <maxItemCount>7</maxItemCount>
       </carousel>
       <image name="system-marker">

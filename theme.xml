@@ -35,16 +35,16 @@
       <helpsystem name="help">
          <origin>0 1</origin>
       </helpsystem>
-      <!--<text name="logoText">
-         <text>${system.fullName}</text>
-         <fontPath>${boldFont}</fontPath>
-         <forceUppercase>true</forceUppercase>
-         <color>ffffff</color>
-      </text>-->
       <carousel name="systemcarousel">
          <type>vertical</type>
          <color>00000000</color>
          <staticItem>./${system.theme}/logo.svg</staticItem>
+         <text>${system.fullName}</text>
+         <fontPath>${boldFont}</fontPath>
+         <textColor>ffffff</textColor>
+         <letterCase>uppercase</letterCase>
+         <letterCaseCollections>uppercase</letterCaseCollections>
+         <letterCaseGroupedCollections>uppercase</letterCaseGroupedCollections>
          <zIndex>30</zIndex>
       </carousel>
       <image name="system-marker">
