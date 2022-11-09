@@ -105,7 +105,7 @@
       </datetime>
    </view>
 
-   <variant name="gamelist-default">
+   <variant name="gamelist-simple">
       <view name="gamelist">
          <video name="md_video">
             <origin>0.5 0.5</origin>
