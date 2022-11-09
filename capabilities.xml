@@ -7,9 +7,9 @@
       <label>Immersive</label>
       <selectable>true</selectable>
    </variant>
-   <variant name="gamelist-default">
-      <label>MixImage</label>
+   <variant name="gamelist-simple">
+      <label>Simple</label>
       <selectable>true</selectable>
    </variant>
-   
+
 </themeCapabilities>
