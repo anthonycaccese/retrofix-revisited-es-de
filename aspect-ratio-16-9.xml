@@ -28,7 +28,7 @@
          <size>0.171875 1</size><!-- 330 1080 -->
          <itemScale>1.5</itemScale>
          <itemSize>0.1 0.1</itemSize><!-- 192 108 -->
-         <fontSize>0.025</fontSize>
+         <fontSize>0.02</fontSize>
          <lineSpacing>1.2</lineSpacing>
          <maxItemCount>7</maxItemCount>
       </carousel>
