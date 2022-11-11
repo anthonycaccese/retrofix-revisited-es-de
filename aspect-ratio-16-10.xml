@@ -20,9 +20,6 @@
       <helpsystem name="help">
          <pos>0.276041666666667 0.95</pos><!-- 530 1140 -->
       </helpsystem>
-      <image name="logo">
-         <path>./${system.theme}/logo.svg</path>
-      </image>
       <carousel name="systemcarousel">
          <pos>0.028645833333333 0</pos><!-- 55 0 -->
          <size>0.171875 1</size><!-- 330 1200 -->
@@ -55,12 +52,6 @@
          <pos>0.161458333333333 0.09</pos><!-- 310 108 -->
          <maxSize>0.2 0.08</maxSize>
       </image>
-      <!--<text name="logoText">
-         <pos>0.161458333333333 0.09</pos>
-         <size>0.25 0.1</size>
-         <fontSize>0.035</fontSize>
-         <lineSpacing>1</lineSpacing>
-      </text>-->
       <textlist name="gamelist">
          <pos>0 0.18</pos>
          <size>0.333333333333333 0.795</size>
