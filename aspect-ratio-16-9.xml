@@ -20,9 +20,6 @@
       <helpsystem name="help">
          <pos>0.28125 0.944444444444444</pos><!-- 540 1020 -->
       </helpsystem>
-      <image name="logo">
-         <path>./${system.theme}/logo.svg</path>
-      </image>
       <carousel name="systemcarousel">
          <pos>0.028645833333333 0</pos><!-- 55 0 -->
          <size>0.171875 1</size><!-- 330 1080 -->
@@ -55,12 +52,6 @@
          <pos>0.161458333333333 0.09</pos><!-- 310 108 -->
          <maxSize>0.2 0.08</maxSize>
       </image>
-      <!--<text name="logoText">
-         <pos>0.161458333333333 0.09</pos>
-         <size>0.25 0.1</size>
-         <fontSize>0.035</fontSize>
-         <lineSpacing>1</lineSpacing>
-      </text>-->
       <textlist name="gamelist">
          <pos>0 0.18</pos>
          <size>0.333333333333333 0.795</size>
@@ -68,12 +59,11 @@
          <horizontalMargin>0.028645833333333</horizontalMargin>
          <selectorHeight>0.054</selectorHeight>
          <selectorOffsetY>-0.00675</selectorOffsetY>
-         <lineSpacing>2</lineSpacing>
+         <lineSpacing>1.95</lineSpacing>
       </textlist>
       <image name="gamelist-view-overlay">
-         <path>./_inc/images/gamelist-view-overlay-16-10.png</path>
+         <path>./_inc/images/gamelist-view-overlay-16-9.png</path>
       </image>
-      
       <image name="gamelist-metadata">
          <pos>0.661458333333333 0.665740740740741</pos><!-- 1270  -->
          <size>0.299895833333333 0.062083333333333</size><!-- 575.8 74.5-->
@@ -128,9 +118,9 @@
             <zIndex>100</zIndex>
          </image>
          <video name="md_video">
-            <origin>0 0</origin>
-            <pos>0.322916666666667 0</pos>
-            <maxSize>0.677083333333333 2</maxSize>
+            <origin>0.5 0</origin>
+            <pos>0.661458333333333 0</pos>
+            <maxSize>1 1.5</maxSize>
             <imageType>screenshot,titlescreen,fanart</imageType>
             <pillarboxes>false</pillarboxes>
             <zIndex>2</zIndex>

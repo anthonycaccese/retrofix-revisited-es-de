@@ -4,6 +4,7 @@
       <mainFont>./_inc/fonts/RedHatDisplay-Regular.ttf</mainFont>
       <boldFont>./_inc/fonts/RedHatDisplay-Bold.ttf</boldFont>
       <spacerImage>./_inc/images/space.png</spacerImage>
+      <systemColor>5e5e5e</systemColor>
    </variables>
 
    <view name="system,gamelist">
@@ -38,7 +39,7 @@
       <carousel name="systemcarousel">
          <type>vertical</type>
          <color>00000000</color>
-         <staticItem>./${system.theme}/logo.svg</staticItem>
+         <staticItem>./_inc/systems/${system.theme}.svg</staticItem>
          <text>${system.fullName}</text>
          <fontPath>${boldFont}</fontPath>
          <textColor>ffffff</textColor>
@@ -50,7 +51,7 @@
       <image name="system-marker">
          <origin>0 0.5</origin>
          <path>${spacerImage}</path>
-         <color>777777</color>
+         <color>${systemColor}</color>
          <tile>true</tile>
          <zIndex>20</zIndex>
       </image>
@@ -62,7 +63,7 @@
       </image>
       <image name="system-view-art">
          <default>./_inc/images/bg-default.png</default>
-         <path>./${system.theme}/bg.jpg</path>
+         <path>./_inc/systems/${system.theme}.jpg</path>
          <zIndex>5</zIndex>
       </image>
    </view>
@@ -74,18 +75,10 @@
       </text>
       <image name="logo">
          <origin>0.5 0.5</origin>
-         <path>./${system.theme}/logo.svg</path>
+         <path>./_inc/systems/${system.theme}.svg</path>
       </image>
-      <!--<text name="logoText">
-         <origin>0.5 0.5</origin>
-         <text>${system.fullName}</text>
-         <fontPath>${boldFont}</fontPath>
-         <horizontalAlignment>center</horizontalAlignment>
-         <forceUppercase>true</forceUppercase>
-         <color>ffffff</color>
-      </text>-->
       <textlist name="gamelist">
-         <selectorColor>424242</selectorColor>
+         <selectorColor>${systemColor}</selectorColor>
          <selectedColor>ffffff</selectedColor>
          <primaryColor>888888</primaryColor>
          <secondaryColor>888888</secondaryColor>
@@ -98,7 +91,6 @@
          <size>1 1</size>
          <zIndex>10</zIndex>
       </image>
-
       <image name="gamelist-metadata">
          <origin>0.5 0</origin>
          <path>./_inc/images/gamelist-metadata.png</path>
@@ -141,7 +133,6 @@
          <lineSpacing>1</lineSpacing>
          <horizontalAlignment>center</horizontalAlignment>
       </datetime>
-
       <video name="md_video">
          <delay>2</delay>
       </video>
@@ -180,5 +171,7 @@
    <aspectRatio name="16:10">
       <include>./aspect-ratio-16-10.xml</include>
    </aspectRatio>
+
+   <include>./_inc/systems/${system.theme}.xml</include>
 
 </theme>
