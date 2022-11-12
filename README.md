@@ -16,7 +16,7 @@ This is port of the Retrofix theme by [20GotoTen](https://github.com/20GotoTen) 
 
 | System View | Gamelist View |
 |----|----|
-| ![Screen Shot 2022-08-11 at 00 01 14](https://user-images.githubusercontent.com/1454947/184063378-5de2ba90-88b4-4398-9e2c-cbafe54e4bf8.png) | ![Screen Shot 2022-08-11 at 00 02 47](https://user-images.githubusercontent.com/1454947/184063396-341fb5bb-23f0-41f4-8229-59a1402a4657.png) | 
+| ![Screen Shot 2022-11-12 at 09 36 55](https://user-images.githubusercontent.com/1454947/201479307-5fb850f5-f8bc-458b-9707-2f5519b5d612.png) | ![Screen Shot 2022-11-12 at 09 37 56](https://user-images.githubusercontent.com/1454947/201479317-7710cb37-f1cf-4c1a-81b4-229c938e3c99.png) | 
 
 ## **Configuration Options**
 
@@ -31,7 +31,7 @@ This is port of the Retrofix theme by [20GotoTen](https://github.com/20GotoTen) 
 
 | Immersive | Simple | Carousel |
 |----|----|----|
-| ![Screen Shot 2022-08-11 at 00 02 47](https://user-images.githubusercontent.com/1454947/184063396-341fb5bb-23f0-41f4-8229-59a1402a4657.png) | ![Screen Shot 2022-08-11 at 00 04 30](https://user-images.githubusercontent.com/1454947/184063624-6b169152-dda5-4b80-86ad-b909ae0fa4f6.png) | ![Screen Shot 2022-11-12 at 09 04 48](https://user-images.githubusercontent.com/1454947/201477834-0e089f9c-a295-4dc7-9f17-9aef0c3a3702.png) |
+| ![Screen Shot 2022-11-12 at 09 37 56](https://user-images.githubusercontent.com/1454947/201479317-7710cb37-f1cf-4c1a-81b4-229c938e3c99.png) | ![Screen Shot 2022-11-12 at 09 37 45](https://user-images.githubusercontent.com/1454947/201479373-9135d152-c027-4823-b2ee-694f6785020f.png) | ![Screen Shot 2022-11-12 at 09 37 18](https://user-images.githubusercontent.com/1454947/201479381-d49ac4fc-3653-47e1-a4a2-638de897fada.png) |
 
 ## **Additional Notes**
 
