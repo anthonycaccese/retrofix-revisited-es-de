@@ -43,57 +43,59 @@
       </image>
    </view>
 
-   <view name="gamelist">
-      <helpsystem name="help">
-         <origin>0.5 1</origin>
-         <pos>0.661458333333333 0.95</pos><!-- 1270 1140 -->
-      </helpsystem>
-      <image name="logo">
-         <pos>0.161458333333333 0.09</pos><!-- 310 108 -->
-         <maxSize>0.2 0.08</maxSize>
-      </image>
-      <textlist name="gamelist">
-         <pos>0 0.18</pos>
-         <size>0.333333333333333 0.795</size>
-         <fontSize>0.027</fontSize>
-         <horizontalMargin>0.028645833333333</horizontalMargin>
-         <selectorHeight>0.054</selectorHeight>
-         <selectorOffsetY>-0.00675</selectorOffsetY>
-         <lineSpacing>1.95</lineSpacing>
-      </textlist>
-      <image name="gamelist-view-overlay">
-         <path>./_inc/images/gamelist-view-overlay-16-9.png</path>
-      </image>
-      <image name="gamelist-metadata">
-         <pos>0.661458333333333 0.665740740740741</pos><!-- 1270  -->
-         <size>0.299895833333333 0.062083333333333</size><!-- 575.8 74.5-->
-      </image>
-      <text name="md_description">
-         <pos>0.661458333333333 0.778333333333333</pos><!-- 1270 934 -->
-         <size>0.5 0.12</size>
-         <fontSize>0.024</fontSize>
-      </text>
-      <text name="md_genre">
-         <pos>0.477604166666667 0.696666666666667</pos><!-- 917 832 -->
-         <size>0.083333333333333 0.033333333333333</size><!-- 160 40 -->
-         <fontSize>0.016</fontSize>
-      </text> 
-      <text name="md_players">
-         <pos>0.572395833333333 0.696666666666667</pos><!-- 1099 832 -->
-         <size>0.083333333333333 0.033333333333333</size><!-- 160 40 -->
-         <fontSize>0.016</fontSize>
-      </text>
-      <text name="md_developer">
-         <pos>0.6671875 0.696666666666667</pos><!-- 1281 832 -->
-         <size>0.083333333333333 0.033333333333333</size><!-- 160 40 -->
-         <fontSize>0.016</fontSize>
-      </text>
-      <datetime name="md_releasedate">
-         <pos>0.761979166666667 0.696666666666667</pos><!-- 1463 832 -->
-         <size>0.083333333333333 0.033333333333333</size><!-- 160 40 -->
-         <fontSize>0.016</fontSize>
-      </datetime>
-   </view>
+   <variant name="gamelist-simple,gamelist-immersive">
+      <view name="gamelist">
+         <helpsystem name="help">
+            <origin>0.5 1</origin>
+            <pos>0.661458333333333 0.95</pos><!-- 1270 1140 -->
+         </helpsystem>
+         <image name="logo">
+            <pos>0.161458333333333 0.09</pos><!-- 310 108 -->
+            <maxSize>0.2 0.08</maxSize>
+         </image>
+         <textlist name="gamelist">
+            <pos>0 0.18</pos>
+            <size>0.333333333333333 0.795</size>
+            <fontSize>0.027</fontSize>
+            <horizontalMargin>0.028645833333333</horizontalMargin>
+            <selectorHeight>0.054</selectorHeight>
+            <selectorOffsetY>-0.00675</selectorOffsetY>
+            <lineSpacing>1.95</lineSpacing>
+         </textlist>
+         <image name="gamelist-view-overlay">
+            <path>./_inc/images/gamelist-view-overlay-16-9.png</path>
+         </image>
+         <image name="gamelist-metadata">
+            <pos>0.661458333333333 0.665740740740741</pos><!-- 1270  -->
+            <size>0.299895833333333 0.062083333333333</size><!-- 575.8 74.5-->
+         </image>
+         <text name="md_description">
+            <pos>0.661458333333333 0.778333333333333</pos><!-- 1270 934 -->
+            <size>0.5 0.12</size>
+            <fontSize>0.024</fontSize>
+         </text>
+         <text name="md_genre">
+            <pos>0.477604166666667 0.696666666666667</pos><!-- 917 832 -->
+            <size>0.083333333333333 0.033333333333333</size><!-- 160 40 -->
+            <fontSize>0.016</fontSize>
+         </text> 
+         <text name="md_players">
+            <pos>0.572395833333333 0.696666666666667</pos><!-- 1099 832 -->
+            <size>0.083333333333333 0.033333333333333</size><!-- 160 40 -->
+            <fontSize>0.016</fontSize>
+         </text>
+         <text name="md_developer">
+            <pos>0.6671875 0.696666666666667</pos><!-- 1281 832 -->
+            <size>0.083333333333333 0.033333333333333</size><!-- 160 40 -->
+            <fontSize>0.016</fontSize>
+         </text>
+         <datetime name="md_releasedate">
+            <pos>0.761979166666667 0.696666666666667</pos><!-- 1463 832 -->
+            <size>0.083333333333333 0.033333333333333</size><!-- 160 40 -->
+            <fontSize>0.016</fontSize>
+         </datetime>
+      </view>
+   </variant>
 
    <variant name="gamelist-simple">
       <view name="gamelist">
@@ -115,12 +117,86 @@
             <pos>0.661458333333333 0.611111111111111</pos><!-- 1270  -->
             <maxSize>0.20 0.15</maxSize>
             <imageType>marquee, cover</imageType>
+            <interpolation>linear</interpolation>
             <zIndex>100</zIndex>
          </image>
          <video name="md_video">
             <origin>0.5 0</origin>
             <pos>0.661458333333333 0</pos>
             <maxSize>1 1.5</maxSize>
+            <imageType>screenshot,titlescreen,fanart</imageType>
+            <pillarboxes>false</pillarboxes>
+            <zIndex>2</zIndex>
+         </video>
+      </view>
+   </variant>
+
+   <variant name="gamelist-carousel">
+      <view name="gamelist">
+         <helpsystem name="help">
+            <origin>0.5 1</origin>
+            <pos>0.5 0.95</pos>
+         </helpsystem>
+         <image name="logo">
+            <origin>0 0</origin>
+            <pos>0.035 0.05</pos>
+            <maxSize>0.12 0.8</maxSize>
+         </image>
+         <image name="gamelist-view-overlay">
+            <path>./_inc/images/gamelist-view-carousel-overlay-16-10.png</path>
+         </image>
+         <carousel name="gamelist-carousel">
+            <pos>0 0</pos>
+            <size>1 0.8</size>
+            <type>horizontal</type>
+            <itemType>cover</itemType>
+            <maxItemCount>6</maxItemCount>
+            <itemSize>0.14 0.24</itemSize>
+            <itemScale>1.5</itemScale>
+            <itemInterpolation>linear</itemInterpolation>
+            <unfocusedItemOpacity>0.4</unfocusedItemOpacity>
+            <color>00000000</color>
+            <textColor>ffffff</textColor>
+            <textBackgroundColor>111111</textBackgroundColor>
+            <fontPath>${mainFont}</fontPath>
+            <fontSize>0.032</fontSize>
+            <lineSpacing>1.2</lineSpacing>
+            <zIndex>60</zIndex>
+         </carousel>
+         <image name="gamelist-metadata">
+            <origin>0.5 0.5</origin>
+            <pos>0.5 0.67</pos>
+            <size>0.299895833333333 0.062083333333333</size>
+         </image>
+         <text name="md_genre">
+            <pos>0.316 0.67</pos>
+            <size>0.083333333333333 0.033333333333333</size>
+            <fontSize>0.016</fontSize>
+         </text> 
+         <text name="md_players">
+            <pos>0.412 0.67</pos>
+            <size>0.083333333333333 0.033333333333333</size>
+            <fontSize>0.016</fontSize>
+         </text>
+         <text name="md_developer">
+            <pos>0.507 0.67</pos>
+            <size>0.083333333333333 0.033333333333333</size>
+            <fontSize>0.016</fontSize>
+         </text>
+         <datetime name="md_releasedate">
+            <pos>0.6 0.67</pos>
+            <size>0.083333333333333 0.033333333333333</size>
+            <fontSize>0.016</fontSize>
+         </datetime>
+         <text name="md_description">
+            <pos>0.5 0.74</pos>
+            <size>0.5 0.12</size>
+            <fontSize>0.024</fontSize>
+         </text>
+         <video name="md_video">
+            <origin>0.5 0.5</origin>
+            <pos>0.5 0.5</pos>
+            <maxSize>1.4 2</maxSize>
             <imageType>screenshot,titlescreen,fanart</imageType>
             <pillarboxes>false</pillarboxes>
             <zIndex>2</zIndex>

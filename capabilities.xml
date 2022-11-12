@@ -11,5 +11,9 @@
       <label>Simple</label>
       <selectable>true</selectable>
    </variant>
+   <variant name="gamelist-carousel">
+      <label>Carousel</label>
+      <selectable>true</selectable>
+   </variant>
 
 </themeCapabilities>

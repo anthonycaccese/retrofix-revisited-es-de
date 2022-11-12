@@ -77,14 +77,6 @@
          <origin>0.5 0.5</origin>
          <path>./_inc/systems/${system.theme}.svg</path>
       </image>
-      <textlist name="gamelist">
-         <selectorColor>${systemColor}</selectorColor>
-         <selectedColor>ffffff</selectedColor>
-         <primaryColor>888888</primaryColor>
-         <secondaryColor>888888</secondaryColor>
-         <fontPath>${boldFont}</fontPath>
-         <horizontalAlignment>left</horizontalAlignment>
-      </textlist>
       <image name="gamelist-view-overlay">
          <origin>0 0</origin>
          <pos>0 0</pos>
@@ -97,19 +89,12 @@
          <zIndex>100</zIndex>
          <metadataElement>true</metadataElement>
       </image>
-      <text name="md_description">
-         <metadata>description</metadata>
-         <container>true</container>
-         <origin>0.5 0</origin>
-         <color>ffffff</color>
-         <fontPath>${mainFont}</fontPath>
-         <horizontalAlignment>center</horizontalAlignment>
-      </text>
       <text name="md_genre">
          <metadata>genre</metadata>
          <color>B3B3B3</color>
          <fontPath>${boldFont}</fontPath>
          <lineSpacing>1</lineSpacing>
+         <letterCase>capitalize</letterCase>
          <horizontalAlignment>center</horizontalAlignment>
       </text> 
       <text name="md_players">
@@ -133,10 +118,31 @@
          <lineSpacing>1</lineSpacing>
          <horizontalAlignment>center</horizontalAlignment>
       </datetime>
+      <text name="md_description">
+         <metadata>description</metadata>
+         <container>true</container>
+         <origin>0.5 0</origin>
+         <color>ffffff</color>
+         <fontPath>${mainFont}</fontPath>
+         <horizontalAlignment>center</horizontalAlignment>
+      </text>
       <video name="md_video">
          <delay>2</delay>
       </video>
    </view>
+
+   <variant name="gamelist-simple,gamelist-immersive">
+      <view name="gamelist">
+         <textlist name="gamelist">
+            <selectorColor>${systemColor}</selectorColor>
+            <selectedColor>ffffff</selectedColor>
+            <primaryColor>888888</primaryColor>
+            <secondaryColor>888888</secondaryColor>
+            <fontPath>${boldFont}</fontPath>
+            <horizontalAlignment>left</horizontalAlignment>
+         </textlist>
+      </view>
+   </variant>
 
    <view name="all">
       <sound name="systembrowse">
