@@ -24,14 +24,14 @@ This is port of the Retrofix theme by [20GotoTen](https://github.com/20GotoTen) 
    - Options:
    - `Theme Aspect Ratio`- sets the aspect ratio the theme will render at. If needed, this should be changed to match the aspect ratio of your screen.
    - `Theme Variant`- sets the layout used for the gamelist view when media & metadata are scraped for your games
-- 16:10 aspect ratio is currently supported
-- there are 2 gamelist layouts to choose from (default & immersive)
+- 16:9 & 16:10 aspect ratios are supported
+- there are 3 gamelist layouts to choose from (immersive, simple & carousel)
 
 ### Preview of the Gamelist View Styles
 
-| Immersive | Default |
-|----|----|
-| ![Screen Shot 2022-08-11 at 00 02 47](https://user-images.githubusercontent.com/1454947/184063396-341fb5bb-23f0-41f4-8229-59a1402a4657.png) | ![Screen Shot 2022-08-11 at 00 04 30](https://user-images.githubusercontent.com/1454947/184063624-6b169152-dda5-4b80-86ad-b909ae0fa4f6.png) |
+| Immersive | Simple | Carousel |
+|----|----|----|
+| ![Screen Shot 2022-08-11 at 00 02 47](https://user-images.githubusercontent.com/1454947/184063396-341fb5bb-23f0-41f4-8229-59a1402a4657.png) | ![Screen Shot 2022-08-11 at 00 04 30](https://user-images.githubusercontent.com/1454947/184063624-6b169152-dda5-4b80-86ad-b909ae0fa4f6.png) | ![Screen Shot 2022-11-12 at 09 04 48](https://user-images.githubusercontent.com/1454947/201477834-0e089f9c-a295-4dc7-9f17-9aef0c3a3702.png) |
 
 ## **Additional Notes**
 
