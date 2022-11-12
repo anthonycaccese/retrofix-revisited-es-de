@@ -64,7 +64,6 @@
       <image name="gamelist-view-overlay">
          <path>./_inc/images/gamelist-view-overlay-16-10.png</path>
       </image>
-      
       <image name="gamelist-metadata">
          <pos>0.661458333333333 0.665740740740741</pos><!-- 1270  -->
          <size>0.299895833333333 0.062083333333333</size><!-- 575.8 74.5-->
@@ -119,9 +118,9 @@
             <zIndex>100</zIndex>
          </image>
          <video name="md_video">
-            <origin>0 0</origin>
-            <pos>0.322916666666667 0</pos>
-            <maxSize>0.677083333333333 2</maxSize>
+            <origin>0.5 0</origin>
+            <pos>0.661458333333333 0</pos>
+            <maxSize>1 1.5</maxSize>
             <imageType>screenshot,titlescreen,fanart</imageType>
             <pillarboxes>false</pillarboxes>
             <zIndex>2</zIndex>
