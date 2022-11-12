@@ -59,7 +59,7 @@
          <horizontalMargin>0.028645833333333</horizontalMargin>
          <selectorHeight>0.054</selectorHeight>
          <selectorOffsetY>-0.00675</selectorOffsetY>
-         <lineSpacing>2</lineSpacing>
+         <lineSpacing>1.95</lineSpacing>
       </textlist>
       <image name="gamelist-view-overlay">
          <path>./_inc/images/gamelist-view-overlay-16-10.png</path>
