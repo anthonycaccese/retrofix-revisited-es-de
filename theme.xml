@@ -39,7 +39,7 @@
       <carousel name="systemcarousel">
          <type>vertical</type>
          <color>00000000</color>
-         <staticItem>./_inc/systems/${system.theme}.svg</staticItem>
+         <staticImage>./_inc/systems/${system.theme}.svg</staticImage>
          <text>${system.fullName}</text>
          <fontPath>${boldFont}</fontPath>
          <textColor>ffffff</textColor>
@@ -87,6 +87,7 @@
          <origin>0.5 0</origin>
          <path>./_inc/images/gamelist-metadata.png</path>
          <zIndex>100</zIndex>
+         <interpolation>linear</interpolation>
          <metadataElement>true</metadataElement>
       </image>
       <text name="md_genre">

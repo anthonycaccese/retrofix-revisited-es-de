@@ -59,7 +59,7 @@
             <fontSize>0.027</fontSize>
             <horizontalMargin>0.028645833333333</horizontalMargin>
             <selectorHeight>0.054</selectorHeight>
-            <selectorOffsetY>-0.00675</selectorOffsetY>
+            <selectorVerticalOffset>-0.00675</selectorVerticalOffset>
             <lineSpacing>1.95</lineSpacing>
          </textlist>
          <image name="gamelist-view-overlay">
@@ -149,11 +149,11 @@
             <pos>0 0</pos>
             <size>1 0.8</size>
             <type>horizontal</type>
-            <itemType>cover</itemType>
+            <imageType>cover</imageType>
             <maxItemCount>6</maxItemCount>
             <itemSize>0.14 0.24</itemSize>
             <itemScale>1.5</itemScale>
-            <itemInterpolation>linear</itemInterpolation>
+            <imageInterpolation>linear</imageInterpolation>
             <unfocusedItemOpacity>0.4</unfocusedItemOpacity>
             <color>00000000</color>
             <textColor>ffffff</textColor>
