@@ -204,4 +204,88 @@
       </view>
    </variant>
 
+   <variant name="gamelist-grid">
+      <view name="gamelist">
+         <helpsystem name="help">
+            <origin>0.5 1</origin>
+            <pos>0.5 0.95</pos>
+         </helpsystem>
+         <image name="logo">
+            <origin>0 0</origin>
+            <pos>0.035 0.05</pos>
+            <color>ffffff55</color>
+            <maxSize>0.12 0.8</maxSize>
+         </image>
+         <image name="gamelist-view-overlay">
+            <path>./_inc/images/gamelist-view-carousel-overlay-16-10.png</path>
+         </image>
+         <image name="md_marquee">
+            <origin>0.5 0.5</origin>
+            <pos>0.5 0.125</pos>
+            <maxSize>0.20 0.15</maxSize>
+            <imageType>marquee, cover</imageType>
+            <interpolation>linear</interpolation>
+         </image>
+         <image name="gamelist-metadata">
+            <origin>0.5 0.5</origin>
+            <pos>0.5 0.27</pos>
+            <size>0.299895833333333 0.062083333333333</size>
+         </image>
+         <text name="md_genre">
+            <pos>0.316 0.27</pos>
+            <size>0.083333333333333 0.033333333333333</size>
+            <fontSize>0.016</fontSize>
+         </text> 
+         <text name="md_players">
+            <pos>0.412 0.27</pos>
+            <size>0.083333333333333 0.033333333333333</size>
+            <fontSize>0.016</fontSize>
+         </text>
+         <text name="md_developer">
+            <pos>0.507 0.27</pos>
+            <size>0.083333333333333 0.033333333333333</size>
+            <fontSize>0.016</fontSize>
+         </text>
+         <datetime name="md_releasedate">
+            <pos>0.6 0.27</pos>
+            <size>0.083333333333333 0.033333333333333</size>
+            <fontSize>0.016</fontSize>
+         </datetime>
+         <text name="md_description">
+            <pos>0.5 0.34</pos>
+            <size>0.5 0.12</size>
+            <fontSize>0.024</fontSize>
+         </text>
+         <grid name="gamelist-grid">
+            <origin>0.5 0.5</origin>
+            <pos>0.5 0.7</pos>
+            <size>0.916666666666667 0.372222222222222</size><!-- 1760 400 -->
+            <imageType>marquee</imageType>
+            <imageFit>contain</imageFit>
+            <imageRelativeScale>.6</imageRelativeScale>
+            <!--<imageType>screenshot</imageType>
+            <imageFit>cover</imageFit>
+            <imageRelativeScale>1</imageRelativeScale>-->
+            <itemSize>0.179166666666667 0.180555555555556</itemSize><!-- 344 195 -->
+            <itemScale>1</itemScale>
+            <selectorImage>./_inc/images/grid-selector.svg</selectorImage>
+            <selectorColor>${systemColor}</selectorColor>
+            <itemSpacing>0.005208333333333 0.009259259259259</itemSpacing>
+            <unfocusedItemOpacity>.4</unfocusedItemOpacity>
+            <fontSize>0.02037037037037</fontSize>
+            <backgroundColor>444444</backgroundColor>
+            <zIndex>60</zIndex>
+         </grid>
+         <video name="md_video">
+            <origin>0.5 0.5</origin>
+            <pos>0.5 0.5</pos>
+            <maxSize>1.4 2</maxSize>
+            <imageType>screenshot,titlescreen,fanart</imageType>
+            <pillarboxes>false</pillarboxes>
+            <color>ffffff77</color>
+            <zIndex>2</zIndex>
+         </video>
+      </view>
+   </variant>
+
 </theme>

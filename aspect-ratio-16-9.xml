@@ -258,28 +258,23 @@
             <size>0.5 0.12</size>
             <fontSize>0.024</fontSize>
          </text>
-         <!--<image name="gamelist-grid-background">
-            <origin>0.5 0.5</origin>
-            <pos>0.5 0.7</pos>
-            <size>0.916666666666667 0.37037037037037</size>
-            <path>${spacerImage}</path>
-            <tile>true</tile>
-            <color>ffffff</color>
-            <zIndex>100</zIndex>
-         </image>-->
          <grid name="gamelist-grid">
             <origin>0.5 0.5</origin>
             <pos>0.5 0.7</pos>
             <size>0.916666666666667 0.372222222222222</size><!-- 1760 400 -->
-            <imageType>marquee, screenshot, titlescreen</imageType>
+            <imageType>marquee</imageType>
             <imageFit>contain</imageFit>
             <imageRelativeScale>.6</imageRelativeScale>
+            <!--<imageType>screenshot</imageType>
+            <imageFit>cover</imageFit>
+            <imageRelativeScale>1</imageRelativeScale>-->
             <itemSize>0.179166666666667 0.180555555555556</itemSize><!-- 344 195 -->
             <itemScale>1</itemScale>
             <selectorImage>./_inc/images/grid-selector.svg</selectorImage>
             <selectorColor>${systemColor}</selectorColor>
             <itemSpacing>0.005208333333333 0.009259259259259</itemSpacing>
             <unfocusedItemOpacity>.4</unfocusedItemOpacity>
+            <fontSize>0.02037037037037</fontSize>
             <backgroundColor>444444</backgroundColor>
             <zIndex>60</zIndex>
          </grid>

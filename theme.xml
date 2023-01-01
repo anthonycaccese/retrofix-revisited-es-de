@@ -122,6 +122,7 @@
       <text name="md_description">
          <metadata>description</metadata>
          <container>true</container>
+         <containerStartDelay>6</containerStartDelay>
          <origin>0.5 0</origin>
          <color>ffffff</color>
          <fontPath>${mainFont}</fontPath>
@@ -142,6 +143,15 @@
             <fontPath>${boldFont}</fontPath>
             <horizontalAlignment>left</horizontalAlignment>
          </textlist>
+      </view>
+   </variant>
+
+   <variant name="gamelist-grid">
+      <view name="gamelist">
+         <grid name="gamelist-grid">
+            <fontPath>${boldFont}</fontPath>
+            <textColor>ffffff</textColor>
+         </grid>
       </view>
    </variant>
 
