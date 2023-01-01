@@ -15,5 +15,9 @@
       <label>Carousel</label>
       <selectable>true</selectable>
    </variant>
+   <variant name="gamelist-grid">
+      <label>Grid</label>
+      <selectable>true</selectable>
+   </variant>
 
 </themeCapabilities>
