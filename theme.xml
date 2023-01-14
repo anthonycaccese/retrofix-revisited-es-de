@@ -44,8 +44,8 @@
          <fontPath>${boldFont}</fontPath>
          <textColor>ffffff</textColor>
          <letterCase>uppercase</letterCase>
-         <letterCaseCollections>uppercase</letterCaseCollections>
-         <letterCaseGroupedCollections>uppercase</letterCaseGroupedCollections>
+         <!--<letterCaseCollections>uppercase</letterCaseCollections>
+         <letterCaseGroupedCollections>uppercase</letterCaseGroupedCollections>-->
          <zIndex>30</zIndex>
       </carousel>
       <image name="system-marker">
