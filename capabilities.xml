@@ -1,7 +1,25 @@
 <themeCapabilities>
+   
+   <themeName>Retrofix (Revisited)</themeName>
 
    <aspectRatio>16:9</aspectRatio>
    <aspectRatio>16:10</aspectRatio>
+
+   <transitions name="transitions">
+      <label>transitions</label>
+      <selectable>false</selectable>
+      <systemToSystem>instant</systemToSystem>
+      <systemToGamelist>instant</systemToGamelist>
+      <gamelistToGamelist>instant</gamelistToGamelist>
+      <gamelistToSystem>instant</gamelistToSystem>
+      <startupToSystem>instant</startupToSystem>
+      <startupToGamelist>instant</startupToGamelist>
+   </transitions>
+   <suppressTransitionProfiles>
+      <entry>builtin-instant</entry>
+      <entry>builtin-slide</entry>
+      <entry>builtin-fade</entry>
+   </suppressTransitionProfiles>
 
    <variant name="gamelist-immersive">
       <label>Immersive</label>
