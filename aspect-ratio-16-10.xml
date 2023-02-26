@@ -169,6 +169,7 @@
             <fontPath>${mainFont}</fontPath>
             <fontSize>0.032</fontSize>
             <lineSpacing>1.2</lineSpacing>
+            <fastScrolling>true</fastScrolling>
             <zIndex>60</zIndex>
          </carousel>
          <image name="gamelist-metadata">
