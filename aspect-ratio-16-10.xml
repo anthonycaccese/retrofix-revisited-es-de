@@ -129,9 +129,9 @@
             <zIndex>100</zIndex>
          </image>
          <video name="md_video">
-            <origin>0.5 0</origin>
-            <pos>0.661458333333333 0</pos>
-            <maxSize>1 1.5</maxSize>
+            <origin>0 0</origin>
+            <pos>0.322916666666667 0</pos>
+            <cropSize>0.677083333333333 1</cropSize>
             <imageType>screenshot,titlescreen,fanart</imageType>
             <pillarboxes>false</pillarboxes>
             <zIndex>2</zIndex>
@@ -162,7 +162,8 @@
             <itemSize>0.14 0.24</itemSize>
             <itemScale>1.5</itemScale>
             <imageInterpolation>linear</imageInterpolation>
-            <unfocusedItemOpacity>0.4</unfocusedItemOpacity>
+            <unfocusedItemDimming>0.4</unfocusedItemDimming>
+            <unfocusedItemOpacity>1</unfocusedItemOpacity>
             <color>00000000</color>
             <textColor>ffffff</textColor>
             <textBackgroundColor>111111</textBackgroundColor>
@@ -205,7 +206,7 @@
          <video name="md_video">
             <origin>0.5 0.5</origin>
             <pos>0.5 0.5</pos>
-            <maxSize>1.4 2</maxSize>
+            <cropSize>1 1</cropSize>
             <imageType>screenshot,titlescreen,fanart</imageType>
             <pillarboxes>false</pillarboxes>
             <zIndex>2</zIndex>
@@ -272,15 +273,12 @@
             <imageType>marquee</imageType>
             <imageFit>contain</imageFit>
             <imageRelativeScale>.6</imageRelativeScale>
-            <!--<imageType>screenshot</imageType>
-            <imageFit>cover</imageFit>
-            <imageRelativeScale>1</imageRelativeScale>-->
             <itemSize>0.179166666666667 0.180555555555556</itemSize><!-- 344 195 -->
             <itemScale>1</itemScale>
             <selectorImage>./_inc/images/grid-selector.svg</selectorImage>
             <selectorColor>${systemColor}</selectorColor>
             <itemSpacing>0.005208333333333 0.009259259259259</itemSpacing>
-            <unfocusedItemOpacity>.4</unfocusedItemOpacity>
+            <unfocusedItemOpacity>0.4</unfocusedItemOpacity>
             <fontSize>0.02037037037037</fontSize>
             <backgroundColor>444444</backgroundColor>
             <zIndex>60</zIndex>
@@ -288,7 +286,7 @@
          <video name="md_video">
             <origin>0.5 0.5</origin>
             <pos>0.5 0.5</pos>
-            <maxSize>1.4 2</maxSize>
+            <cropSize>1 1</cropSize>
             <imageType>screenshot,titlescreen,fanart</imageType>
             <pillarboxes>false</pillarboxes>
             <color>ffffff77</color>
