@@ -1,10 +1,12 @@
 <theme>
 
+   <include>./_inc/systems/metadata-global/_default.xml</include>
+   <include>./_inc/systems/metadata-global/${system.theme}.xml</include>
+
    <variables>
       <mainFont>./_inc/fonts/RedHatDisplay-Regular.ttf</mainFont>
       <boldFont>./_inc/fonts/RedHatDisplay-Bold.ttf</boldFont>
       <spacerImage>./_inc/images/space.png</spacerImage>
-      <systemColor>5e5e5e</systemColor>
    </variables>
 
    <view name="system,gamelist">
@@ -39,7 +41,7 @@
       <carousel name="systemcarousel">
          <type>vertical</type>
          <color>00000000</color>
-         <staticImage>./_inc/systems/${system.theme}.svg</staticImage>
+         <staticImage>./_inc/systems/logos/${system.theme}.svg</staticImage>
          <text>${system.fullName}</text>
          <fontPath>${boldFont}</fontPath>
          <textColor>ffffff</textColor>
@@ -64,7 +66,7 @@
       </image>
       <image name="system-view-art">
          <default>./_inc/images/bg-default.png</default>
-         <path>./_inc/systems/${system.theme}.jpg</path>
+         <path>./_inc/systems/artwork/${system.theme}.jpg</path>
          <zIndex>5</zIndex>
       </image>
    </view>
@@ -76,7 +78,7 @@
       </text>
       <image name="logo">
          <origin>0.5 0.5</origin>
-         <path>./_inc/systems/${system.theme}.svg</path>
+         <path>./_inc/systems/logos/${system.theme}.svg</path>
       </image>
       <image name="gamelist-view-overlay">
          <origin>0 0</origin>
@@ -205,7 +207,5 @@
    <aspectRatio name="16:10">
       <include>./aspect-ratio-16-10.xml</include>
    </aspectRatio>
-
-   <include>./_inc/systems/${system.theme}.xml</include>
 
 </theme>
