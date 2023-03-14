@@ -11,6 +11,7 @@ This is port of the Retrofix theme by [20GotoTen](https://github.com/20GotoTen) 
 - Created a 16:10 Layout Variant
 - Added navigation sound set for ES-DE
 - Updated system images and logos
+- Embedded the ES-DE [system-metadata](https://gitlab.com/es-de/themes/system-metadata) repository to power system color highlights
 
 ## **Preview**
 
