@@ -23,6 +23,12 @@
          <textColor>777777</textColor>
          <iconColor>555555</iconColor>
          <fontPath>${mainFont}</fontPath>
+         <originDimmed>0.5 0</originDimmed>
+         <posDimmed>0.5 0.94</posDimmed>
+         <textColorDimmed>cccccc</textColorDimmed>
+         <iconColorDimmed>cccccc</iconColorDimmed>
+         <fontSizeDimmed>0.026</fontSizeDimmed>
+         <opacityDimmed>1.0</opacityDimmed>
       </helpsystem>
    </view>
 
