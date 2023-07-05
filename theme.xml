@@ -144,8 +144,8 @@
          <origin>1 0</origin>
          <horizontalAlignment>right</horizontalAlignment>
          <lines>1</lines>
-         <itemsPerLine>8</itemsPerLine>
-         <slots>folder,broken,completed,favorite,kidgame,collection,controller,altemulator</slots>
+         <itemsPerLine>9</itemsPerLine>
+         <slots>all</slots>
          <customBadgeIcon badge="folder">./_inc/images/badge-folder.svg</customBadgeIcon>
          <customBadgeIcon badge="broken">./_inc/images/badge-broken.svg</customBadgeIcon>
          <customBadgeIcon badge="completed">./_inc/images/badge-completed.svg</customBadgeIcon>
@@ -154,6 +154,7 @@
          <customBadgeIcon badge="collection">./_inc/images/badge-collection.svg</customBadgeIcon>
          <customBadgeIcon badge="controller">./_inc/images/badge-controller.svg</customBadgeIcon>
          <customBadgeIcon badge="altemulator">./_inc/images/badge-altemulator.svg</customBadgeIcon>
+         <customBadgeIcon badge="manual">./_inc/images/badge-manual.svg</customBadgeIcon>
          <zIndex>200</zIndex>
       </badges>
    </view>
