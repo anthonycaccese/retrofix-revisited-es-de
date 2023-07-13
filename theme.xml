@@ -73,6 +73,7 @@
       <image name="system-view-art">
          <default>./_inc/images/bg-default.png</default>
          <path>./_inc/systems/artwork/${system.theme}.jpg</path>
+         <interpolation>linear</interpolation>
          <zIndex>5</zIndex>
       </image>
    </view>
