@@ -45,7 +45,7 @@
 
    <view name="gamelist">
       <badges name="badges">
-         <size>0.22 0.22</size>
+         <size>0.32 0.52</size>
          <itemMargin>-1 0.007029876977153</itemMargin>
          <pos>0.957805907172996 0.05</pos>
       </badges>

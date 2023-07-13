@@ -170,6 +170,9 @@
             <fontPath>${boldFont}</fontPath>
             <horizontalAlignment>left</horizontalAlignment>
          </textlist>
+         <badges name="badges">
+            <direction>column</direction>
+         </badges>
       </view>
    </variant>
 
