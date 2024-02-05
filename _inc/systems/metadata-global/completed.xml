@@ -1,10 +1,13 @@
 <theme>
    <variables>
-      <systemDescription>View all of your completed games.</systemDescription>
+      <systemName>Completed</systemName>
+      <systemDescription>Keep track of the games you've finished.</systemDescription>
       <systemManufacturer>Various</systemManufacturer>
       <systemReleaseYear>Various</systemReleaseYear>
       <systemReleaseDate>Various</systemReleaseDate>
       <systemReleaseDateFormated>Various</systemReleaseDateFormated>
-      <systemHardwareType>Folder</systemHardwareType>
+      <systemHardwareType>Collection</systemHardwareType>
+      <systemColor>222222</systemColor>
+      <systemCoverSize>1-1</systemCoverSize>
    </variables>
 </theme>
