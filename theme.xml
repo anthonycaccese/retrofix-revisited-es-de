@@ -37,6 +37,7 @@
          <origin>0 1</origin>
          <fontPath>${boldFont}</fontPath>
          <systemdata>gamecount</systemdata>
+         <letterCase>capitalize</letterCase>
          <horizontalAlignment>left</horizontalAlignment>
          <color>aaaaaa</color>
          <backgroundColor>00000000</backgroundColor>
