@@ -6,6 +6,10 @@
 <theme>
 
    <view name="system,gamelist">
+      <systemstatus name="system-status">
+         <pos>0.99363426 0.01111111</pos>
+         <backgroundHorizontalPadding>0.00694444 0.00694444</backgroundHorizontalPadding>
+      </systemstatus>
       <helpsystem name="help">
          <fontSize>0.019</fontSize><!-- 24 -->
       </helpsystem>
